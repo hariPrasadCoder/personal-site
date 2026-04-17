@@ -57,10 +57,6 @@ export const metadata: Metadata = {
       "Founder at Antler London building Flax. Columbia-educated AI engineer. YC S24. Take-Two Interactive.",
     images: ["/opengraph-image"],
   },
-  icons: {
-    icon: "/images/profile/my_profile.png",
-    apple: "/images/profile/my_profile.png",
-  },
   alternates: {
     canonical: BASE,
   },
