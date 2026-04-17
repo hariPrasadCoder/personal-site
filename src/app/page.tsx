@@ -59,7 +59,7 @@ export default function Home() {
           <p className="font-semibold text-sm">Hari Prasad Renganathan</p>
           <p className="text-xs text-[#999] mt-0.5">Founder · Antler London · London, UK</p>
           <div className="flex flex-wrap gap-1.5 mt-3">
-            {["Columbia", "YC S24", "Take-Two"].map((t) => (
+            {["Columbia", "YC Engineer", "Take-Two"].map((t) => (
               <span key={t} className="tag">{t}</span>
             ))}
           </div>

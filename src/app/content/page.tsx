@@ -21,19 +21,19 @@ const platforms = [
     featured: false,
   },
   {
-    name: "Towards Data Science",
-    handle: "hari-prasad.medium.com",
-    description: "Published on Towards Data Science. 828K+ followers. Deep dives on AI, ML, and building real systems.",
-    logo: "/images/logos/tds.jpeg",
-    href: "https://hari-prasad.medium.com/",
-    featured: false,
-  },
-  {
     name: "YouTube",
     handle: "@hari.prasad_",
     description: "AI tutorials, build-alongs, and walkthroughs. Watch me build real AI products from scratch.",
     logo: "/images/logos/youtube.png",
     href: "https://www.youtube.com/@hari.prasad_",
+    featured: false,
+  },
+  {
+    name: "Towards Data Science",
+    handle: "hari-prasad.medium.com",
+    description: "Published on Towards Data Science. 828K+ followers. Deep dives on AI, ML, and building real systems.",
+    logo: "/images/logos/tds.jpeg",
+    href: "https://hari-prasad.medium.com/",
     featured: false,
   },
   {

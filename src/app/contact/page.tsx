@@ -17,10 +17,10 @@ export default function Contact() {
         </a>
 
         <a href="https://linkedin.com/in/hariprasad20" target="_blank" rel="noopener noreferrer"
-          className="block bg-[#0A66C2] text-white rounded-[20px] p-7 hover:opacity-90 transition-opacity border border-transparent">
-          <p className="text-[10px] text-white/50 uppercase tracking-widest mb-3 font-semibold">LinkedIn</p>
-          <p className="font-serif text-2xl">linkedin.com/in/hariprasad20</p>
-          <p className="text-sm text-white/70 mt-2">DMs are open · 50K+ followers</p>
+          className="card block p-7 group">
+          <p className="text-[10px] text-[#999] uppercase tracking-widest mb-3 font-semibold">LinkedIn</p>
+          <p className="font-serif text-2xl group-hover:text-[#473ECE] transition-colors">linkedin.com/in/hariprasad20</p>
+          <p className="text-sm text-[#999] mt-2">DMs are open · 50K+ followers</p>
         </a>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
