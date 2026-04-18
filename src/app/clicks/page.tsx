@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const BASE = "https://raw.githubusercontent.com/hariPrasadCoder/personal-site/main/public/images/photography";
 
 const events = [
@@ -80,12 +78,10 @@ export default function Clicks() {
             <div className="columns-2 md:columns-3 gap-3 space-y-3">
               {e.photos.map((photo) => (
                 <div key={photo} className="break-inside-avoid overflow-hidden rounded-xl">
-                  <Image
+                  <img
                     src={`${BASE}/${e.folder}/${photo}`}
                     alt={`${e.name} · ${photo}`}
-                    width={800}
-                    height={600}
-                    className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300"
+                    className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300 rounded-xl"
                     loading="lazy"
                   />
                 </div>
