@@ -89,7 +89,7 @@ export default function Community() {
 
       <div className="card-flat p-5 mb-3">
         <p className="text-[10px] text-[#999] uppercase tracking-widest mb-4 font-semibold">Event impact: across both summits</p>
-        <div className="flex items-center gap-8">
+        <div className="flex flex-wrap items-center gap-4 md:gap-8">
           {[
             { n: "1,555+", l: "people registered" },
             { n: "260+", l: "peak concurrent viewers" },
@@ -101,7 +101,7 @@ export default function Community() {
             </div>
           ))}
           <a href="https://lu.ma/user/hariprasad20" target="_blank" rel="noopener noreferrer"
-            className="ml-auto text-xs text-[#473ECE] font-semibold hover:text-[#3830b0] transition-colors flex items-center gap-1">
+            className="w-full md:w-auto md:ml-auto text-xs text-[#473ECE] font-semibold hover:text-[#3830b0] transition-colors flex items-center gap-1">
             All events on Luma <Arrow size={11} />
           </a>
         </div>
@@ -136,13 +136,13 @@ export default function Community() {
 
       {/* Teaser → Content page */}
       <Link href="/content"
-        className="card block p-6 flex items-center justify-between group hover:border-[#473ECE]/30">
+        className="card flex items-center justify-between p-6 gap-4 group hover:border-[#473ECE]/30">
         <div>
           <p className="text-[10px] text-[#999] uppercase tracking-widest mb-1 font-semibold">Content</p>
-          <p className="font-serif text-xl">LinkedIn · Substack · YouTube · Instagram · Towards Data Science</p>
+          <p className="font-serif text-lg md:text-xl">LinkedIn · Substack · YouTube · Instagram · Towards Data Science</p>
           <p className="text-sm text-[#999] mt-1">50K+ followers · 10M+ impressions · 5 platforms</p>
         </div>
-        <span className="text-[#999] group-hover:text-[#473ECE] transition-colors ml-6 shrink-0">
+        <span className="text-[#999] group-hover:text-[#473ECE] transition-colors shrink-0">
           <Arrow size={16} />
         </span>
       </Link>
